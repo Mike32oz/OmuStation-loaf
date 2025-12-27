@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 10/11/2025 21:23:05
-  entityCount: 31763
+  time: 12/23/2025 18:07:41
+  entityCount: 31766
 maps:
 - 1
 grids:
@@ -15188,7 +15188,7 @@ entities:
       pos: 26.5,17.5
       parent: 12
     - type: Door
-      secondsUntilStateChange: -68782.375
+      secondsUntilStateChange: -68878.64
       state: Opening
     - type: DeviceLinkSink
       invokeCounter: 1
@@ -16286,7 +16286,7 @@ entities:
       pos: 41.5,62.5
       parent: 12
     - type: Door
-      secondsUntilStateChange: -26049.06
+      secondsUntilStateChange: -26145.328
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -78768,8 +78768,8 @@ entities:
           restitution: 0
           friction: 0.4
     - type: EntityStorage
-      open: True
       removedMasks: 20
+      open: True
     - type: PlaceableSurface
       isPlaceable: True
   - uid: 25352
@@ -79276,8 +79276,8 @@ entities:
           restitution: 0
           friction: 0.4
     - type: EntityStorage
-      open: True
       removedMasks: 20
+      open: True
     - type: PlaceableSurface
       isPlaceable: True
   - uid: 20856
@@ -168661,6 +168661,13 @@ entities:
     - type: Transform
       pos: 21.5,27.5
       parent: 12
+- proto: SpawnPointNanotrasenCareerTrainer
+  entities:
+  - uid: 23454
+    components:
+    - type: Transform
+      pos: -26.5,33.5
+      parent: 12
 - proto: SpawnPointNanotrasenRepresentative
   entities:
   - uid: 21763
@@ -168964,6 +168971,18 @@ entities:
     components:
     - type: Transform
       pos: 30.5,-21.5
+      parent: 12
+- proto: SpawnPointVirologist
+  entities:
+  - uid: 23452
+    components:
+    - type: Transform
+      pos: -11.5,-59.5
+      parent: 12
+  - uid: 23453
+    components:
+    - type: Transform
+      pos: -12.5,-59.5
       parent: 12
 - proto: SpawnPointWarden
   entities:
@@ -198499,8 +198518,8 @@ entities:
           restitution: 0
           friction: 0.4
     - type: EntityStorage
-      open: True
       removedMasks: 20
+      open: True
     - type: PlaceableSurface
       isPlaceable: True
 - proto: WardrobeBotanistFilled

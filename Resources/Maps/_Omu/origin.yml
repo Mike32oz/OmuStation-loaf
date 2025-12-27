@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 10/11/2025 21:45:11
-  entityCount: 32481
+  time: 12/21/2025 19:37:15
+  entityCount: 32483
 maps:
 - 1
 grids:
@@ -79162,8 +79162,8 @@ entities:
       pos: -22.5,-31.5
       parent: 2
     - type: EntityStorage
-      open: True
       removedMasks: 20
+      open: True
 - proto: ClosetWall
   entities:
   - uid: 12547
@@ -82250,8 +82250,8 @@ entities:
           restitution: 0
           friction: 0.4
     - type: EntityStorage
-      open: True
       removedMasks: 20
+      open: True
     - type: PlaceableSurface
       isPlaceable: True
 - proto: CrateArtifactContainer
@@ -82432,8 +82432,8 @@ entities:
         - 0
         - 0
         - 0
-      open: True
       removedMasks: 20
+      open: True
     - type: PlaceableSurface
       isPlaceable: True
 - proto: CrateEmptySpawner
@@ -83530,7 +83530,7 @@ entities:
       pos: -36.5,-19.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -7323.3296
+      secondsUntilStateChange: -7624.034
       state: Closing
 - proto: d10Dice
   entities:
@@ -166932,7 +166932,7 @@ entities:
   - uid: 25010
     components:
     - type: Transform
-      pos: -28.5,-74.5
+      pos: -13.5,-60.5
       parent: 2
 - proto: SpawnPointMedicalIntern
   entities:
@@ -167288,6 +167288,18 @@ entities:
     components:
     - type: Transform
       pos: -24.5,-12.5
+      parent: 2
+- proto: SpawnPointVirologist
+  entities:
+  - uid: 32482
+    components:
+    - type: Transform
+      pos: -26.5,-78.5
+      parent: 2
+  - uid: 32483
+    components:
+    - type: Transform
+      pos: -26.5,-79.5
       parent: 2
 - proto: SpawnPointWarden
   entities:

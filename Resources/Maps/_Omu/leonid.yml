@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.0
   forkId: ""
   forkVersion: ""
-  time: 10/11/2025 21:34:30
-  entityCount: 35534
+  time: 12/21/2025 18:42:41
+  entityCount: 35536
 maps:
 - 1
 grids:
@@ -14656,6 +14656,7 @@ entities:
       id: Leonid
     - type: ImplicitRoof
     - type: FTLDrive
+    - type: NavMap
   - uid: 4
     components:
     - type: MetaData
@@ -190842,6 +190843,18 @@ entities:
     components:
     - type: Transform
       pos: -24.5,40.5
+      parent: 2
+- proto: SpawnPointVirologist
+  entities:
+  - uid: 29
+    components:
+    - type: Transform
+      pos: -65.5,-36.5
+      parent: 2
+  - uid: 31
+    components:
+    - type: Transform
+      pos: -63.5,-34.5
       parent: 2
 - proto: SpawnPointWarden
   entities:
