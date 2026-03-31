@@ -108,6 +108,8 @@
   - CargoTechnician
   - Quartermaster
   - SalvageSpecialist
+  - ShaftMiner # Lavaland Change
+  - Courier # Omu
 
 - type: department
   id: Civilian
@@ -229,6 +231,7 @@
   weight: 20
   roles:
   - HeadOfSecurity
+  - SecuritySergeant # Omu
   - SecurityCadet
   - SecurityOfficer
   - Detective

@@ -14,6 +14,7 @@
     - HosRifleSet
     - HosShotgunSet
     - HosSniperSet
+    - HosBRDISet
     maxSelectedSets: 1
   - type: StealTarget
     stealGroup: WeaponEnergyGunLawbringer
@@ -69,6 +70,23 @@
     - WeaponMk58Set
     - WeaponT8Set
     - WeaponTerminusSet
+    maxSelectedSets: 1
+
+- type: entity
+  id: SergeantGunCase
+  name: sergeant duty case
+  description: A case, used to securely store your duty weapon of choice.
+  parent: [ BaseItem, BaseSetSelector, BaseSecurityContraband ]
+  components:
+  - type: Sprite
+    sprite: _Omu/Objects/Misc/GunCases/officercase.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - WeaponMk58Set
+    - WeaponT8Set
+    - WeaponTerminusSet
+    - WeaponCeremonialRifleSet
     maxSelectedSets: 1
 
 - type: entity
